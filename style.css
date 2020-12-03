@@ -1,0 +1,192 @@
+body {
+	background: rgba(0, 0, 0, 0.9);
+	margin: 0;
+	color: #fff;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.showcase::after {
+	content:'';
+	height: 100vh;
+	width: 100%;
+	background-image: url(cover2.jpg); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	filter: blur(10px);
+	-webkit-filter: blur(10px); 
+	transition: all 1000ms;
+
+}
+
+.showcase:hover::after {
+	filter: blur(0px);
+	-webkit-filter: blur(0px);
+
+}
+
+.showcase:hover .content {
+
+	filter: blur(1px);
+	-webkit-filter: blur(1px);
+}
+
+.content {
+
+ position: absolute;
+ z-index: 1;
+ top: 10%;
+ left:  50%;
+ margin-top: 105px;
+ margin-left: -145px;
+ width: 300px;
+ height: 350px;
+ transition: all 1000ms;
+}
+.content .logo {
+	height: 180px;
+	width: 180px;
+}
+.content .title {
+	font-size: 1.5rem;
+	margin-top: 1rem;
+}
+.content .text {
+	line-height: 1;
+	margin-top: 1rem;
+
+
+}
+
+.container {
+
+	max-width: 960px;
+	margin: auto;
+	overflow: hidden;
+	padding: 1rem 1rem;
+}
+
+.grid-5 {
+	display: grid;
+	grid-gap: 5px;
+     grid-template-columns: repeat(5, 1fr);
+  /*grid-template-rows: 20px 20px;*/
+  
+ 
+}
+.grid-2 {
+	display: grid;
+	grid-gap: 20px;
+     grid-template-columns: repeat(2, 1fr);
+  /*grid-template-rows: 20px 20px;*/
+  
+ 
+}
+
+.center {
+	text-align: center;
+	margin: auto;
+}
+
+.bg-light {
+	background: #f4f4f4;
+	color: #333;
+}
+
+.bg-dark {
+	background: #333;
+	color: #f4f4f4;
+}
+footer {
+	padding: 2.2rem;
+}
+
+footer p {
+	margin: 0;
+
+}
+
+a:link {
+  color: white;
+}
+
+/* academic page*/
+
+.showcase2::after {
+	content:'';
+	height: 80vh;
+	width: 100%;
+	background-image: url(aca.jpg); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	/*filter: blur(10px);
+	-webkit-filter: blur(10px); */
+	transition: all 1000ms;
+
+}
+
+
+/* ecas page*/
+
+.showcase3::after {
+	content:'';
+	height: 80vh;
+	width: 100%;
+	background-image: url(extra.png); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	/*filter: blur(10px);
+	-webkit-filter: blur(10px); */
+	transition: all 1000ms;
+
+}
+
+
+
+
+/* attraction page*/
+
+.showcase4::after {
+	content:'';
+	height: 80vh;
+	width: 100%;
+	background-image: url(attraction.jpg); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	/*filter: blur(10px);
+	-webkit-filter: blur(10px); */
+	transition: all 1000ms;
+
+}
+
+
+/* skill page*/
+
+.showcase5::after {
+	content:'';
+	height: 80vh;
+	width: 100%;
+	background-image: url(skill.PNG); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	/*filter: blur(10px);
+	-webkit-filter: blur(10px); */
+	transition: all 1000ms;
+
+}
+
+/*Table*/
+
+.content-table {
+
+	
+}
+
